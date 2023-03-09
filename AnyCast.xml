@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root configId="3202209" xmlns="urn:schemas-upnp-org:device-1-0" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>1</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+    <friendlyName>AnyCast-c720-DLNA-DMR</friendlyName>
+    <manufacturer>HQ</manufacturer>
+    <manufacturerURL>http://www.baidu.com/</manufacturerURL>
+    <modelDescription>HQ Media Center - Media Renderer</modelDescription>
+    <modelName>HQ Media Center</modelName>
+    <modelNumber>v0.10</modelNumber>
+    <modelURL>http://www.baidu.com/</modelURL>
+    <UDN>uuid:3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf</UDN>
+    <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+        <SCPDURL>/AVTransport/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/scpd.xml</SCPDURL>
+        <controlURL>/AVTransport/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/control.xml</controlURL>
+        <eventSubURL>/AVTransport/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/event.xml</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+        <SCPDURL>/ConnectionManager/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/scpd.xml</SCPDURL>
+        <controlURL>/ConnectionManager/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/control.xml</controlURL>
+        <eventSubURL>/ConnectionManager/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/event.xml</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+        <SCPDURL>/RenderingControl/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/scpd.xml</SCPDURL>
+        <controlURL>/RenderingControl/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/control.xml</controlURL>
+        <eventSubURL>/RenderingControl/3e1388f0-1dd2-11b2-83b7-4c0fc7209ecf/event.xml</eventSubURL>
+      </service>
+    </serviceList>
+  </device>
+</root>
