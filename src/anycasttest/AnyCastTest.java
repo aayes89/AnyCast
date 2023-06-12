@@ -33,7 +33,7 @@ public class AnyCastTest {
         Scanner in = new Scanner(System.in);
         System.out.println("Insert the url to Play");
         //utils.loadVideoLink(in.nextLine());
-        //utils.loadVideoLink("D:\\Peliculas\\Major Lazer – Light it Up (feat. Nyla & Fuse ODG).mp4");
+        //utils.loadVideoLink("D:\\Movies\\Major Lazer – Light it Up (feat. Nyla & Fuse ODG).mp4");
              //JFileChooser chooser=new JFileChooser();
         //chooser.showOpenDialog(null);
         //File selected = chooser.getSelectedFile();
@@ -52,9 +52,9 @@ public class AnyCastTest {
          11-"GetProtocolInfo"
          12-"GetTransportInfo"
          */
-        //utils.loadVideoLink("http://192.168.0.162:8080/C:/Users/Andrea/Documents/NetBeansProjects/AnyCastTest/screen.jpg");
+        //utils.loadVideoLink("http://192.168.0.162:8080/C:/Users/Slam/Documents/NetBeansProjects/AnyCastTest/screen.jpg");
 
-        //utils.loadVideoLink("C:/Users/Andrea/Documents/NetBeansProjects/AnyCastTest/screen.jpg");//+selected.getAbsolutePath());
+        //utils.loadVideoLink("C:/Users/Slam/Documents/NetBeansProjects/AnyCastTest/screen.jpg");//+selected.getAbsolutePath());
         String data;
         Device dev = utils.getFirstDevice();
         data = utils.getXmlHead() + utils.getXmlStop() + utils.getXmlFoot();
